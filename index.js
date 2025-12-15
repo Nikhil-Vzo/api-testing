@@ -5,6 +5,8 @@ const url="https://official-joke-api.appspot.com/random_joke";
   const res = await data.json();
   console.log(res.setup + "-" + res.punchline );
 
+
+  //randon fuck
   const testing = async() => {
     const d1 = await fetch(url);
     const d2 = await d1.json();
@@ -13,7 +15,7 @@ const url="https://official-joke-api.appspot.com/random_joke";
 
   testing();
 
-
+//another fuck chillll
   const add = (a,b) => console.log(a+b);
   add(5,5);
 
